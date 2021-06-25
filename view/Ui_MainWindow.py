@@ -80,13 +80,17 @@ class Ui_MainWindow(object):
 
         self.page_findMusic = QtWidgets.QWidget()
         self.body_stackedWidget.addWidget(self.page_findMusic)
-        self.stack_tstbtn = QtWidgets.QPushButton(self.page_findMusic)
-        self.stack_tstbtn.setText("stack1")
+        self.hly_findMusic = QtWidgets.QHBoxLayout(self.page_findMusic)
+        self.hly_findMusic.setContentsMargins(0, 0, 0, 0)
+        # self.stack_tstbtn = QtWidgets.QPushButton(self.page_findMusic)
+        # self.stack_tstbtn.setText("stack1")
 
         self.page_2 = QtWidgets.QWidget()
         self.body_stackedWidget.addWidget(self.page_2)
-        self.stack_tstbtn2 = QtWidgets.QPushButton(self.page_2)
-        self.stack_tstbtn2.setText("stack2")
+        self.hly_page2 = QtWidgets.QHBoxLayout(self.page_2)
+        self.hly_page2.setContentsMargins(0, 0, 0, 0)
+        # self.stack_tstbtn2 = QtWidgets.QPushButton(self.page_2)
+        # self.stack_tstbtn2.setText("stack2")
 
         # self.body_stackedWidget.setCurrentIndex(2)
 
